@@ -8,16 +8,16 @@ namespace Hello_World
     public class HelloApplication
     {
         private IHello Words { get; set; }
-
-        public HelloApplication(IHello words)
+        private IVoice Voice { get; set; }
+        public HelloApplication(IHello words, IVoice voice)
         {
             this.Words = words;
+            this.Voice = voice;
         }
 
         public void Communicate()
         {
-            Console.WriteLine(Words.Speak());
-            Console.ReadLine();
+            Voice.Communicate(Words.Speak());
         }
     }
 }

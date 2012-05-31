@@ -10,7 +10,8 @@ namespace Hello_World
         public HelloApplication Build()
         {
             IHello words = new EnHello();
-            HelloApplication app = new HelloApplication(words);
+            IVoice voice = new ConsoleVoice();
+            HelloApplication app = new HelloApplication(words, voice);
             return app;
         }
     }
