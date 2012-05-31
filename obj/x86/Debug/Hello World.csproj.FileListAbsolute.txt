@@ -1,0 +1,5 @@
+C:\Users\Chris\Hello-World\bin\Debug\Hello World.exe
+C:\Users\Chris\Hello-World\bin\Debug\Hello World.pdb
+C:\Users\Chris\Hello-World\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Hello-World\obj\x86\Debug\Hello World.exe
+C:\Users\Chris\Hello-World\obj\x86\Debug\Hello World.pdb
