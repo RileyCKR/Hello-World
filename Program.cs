@@ -9,9 +9,9 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            IHello hello = new EnHello();
-            hello.Speak();
-            Console.ReadLine();
+            HelloApplicationFactory appFactory = new HelloApplicationFactory();
+            HelloApplication app = appFactory.Build();
+            app.Communicate();
         }
     }
 }

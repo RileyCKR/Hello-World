@@ -7,6 +7,6 @@ namespace Hello_World
 {
     public interface IHello
     {
-        void Speak();
+        string Speak();
     }
 }
