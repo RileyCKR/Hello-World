@@ -5,11 +5,8 @@ using System.Text;
 
 namespace Hello_World
 {
-    public class Hello
+    public interface IHello
     {
-        public void Speak()
-        {
-            Console.WriteLine("Hello World!");
-        }
+        void Speak();
     }
 }

@@ -9,7 +9,7 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            Hello hello = new Hello();
+            IHello hello = new EnHello();
             hello.Speak();
             Console.ReadLine();
         }
